@@ -10,4 +10,5 @@ End
 
 if __name__ == '__main__':
     N = 7
-    print(f"{N}th Fibonacci term is:", fibonacci(N))
+    for i in range(N+1):
+    print(f"{i}th Fibonacci term is:", fibonacci(i))
